@@ -43,7 +43,7 @@ function stopTimer() {
 }
 
 /**/function volverAlInicio() {
-  window.location.href = "menu.html";
+  window.location.href = "index.html";
 }/**/
 
 //esta función se encarga de manejar las acciones que ocurren cuando se realiza un clic en el pato durante el juego
