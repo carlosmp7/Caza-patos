@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menú Principal</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #irMenu2 {
+      border-radius: 50px;
+      background-color: olive;
+      color: black;
+    }
+    
+    h1 {
+      background-color: skyblue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>NO TE ADICCIONES CUANDO VEAS EL PRECIO DEL ACEITE</h1>
+  <p>TUTORIAL:</p>
+  <p>El primer ejemplo es sencillo. Solo tienes que hacer clic en el botón que parece una aceituna verde, pero no lo es. 
+    No es fácil capturarlos, por eso el aceite es caro. Pero por ser tú, te lo dejamos fácil. Después de esto, comenzará la caza. 
+    Y recuerda, ¡no dejes escapar el aceite!</p>
+  
+  <button id="irMenu2">START</button>
+  
+  <script>
+    document.getElementById("irMenu2").addEventListener("click", function() {
+      window.location.href = "index.html"; // Redirige al menú secundario (menu2.html)
+    });
+  </script>
+</body>
+</html>
