@@ -1,57 +1,55 @@
 body {
-  margin: 0;
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
 }
 
 #titulo {
-  margin: auto;
-  text-align: center;
-  color: red;
-  background-color: yellow;
+  margin: auto; /* Centra horizontal y verticalmente el elemento dentro de su contenedor */
+  text-align: center; /* Centra el texto horizontalmente dentro del elemento */
+  color: red; /* Establece el color del texto en rojo */
+  background-color: yellow; /* Establece el color de fondo en amarillo */
 }
 
-
 #game-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 90vh;
+  position: relative; /* Establece una posición relativa para el contenedor */
+  display: flex; /* Habilita el uso de flexbox en el contenedor */
+  align-items: center; /* Centra verticalmente los elementos del contenedor */
+  justify-content: center; /* Centra horizontalmente los elementos del contenedor */
+  width: 100vw; /* Establece el ancho del contenedor al 100% del ancho de la ventana */
+  height: 90vh; /* Establece la altura del contenedor al 90% del alto de la ventana */
 }
 
 #background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
+  position: absolute; /* Establece una posición absoluta para la imagen de fondo */
+  top: 0; /* Alinea la imagen de fondo en la parte superior */
+  left: 0; /* Alinea la imagen de fondo en la parte izquierda */
+  width: 100%; /* Establece el ancho de la imagen de fondo al 100% del contenedor */
+  height: 100%; /* Establece la altura de la imagen de fondo al 100% del contenedor */
+  object-fit: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor sin deformarla */
+  z-index: 0; /* Establece la capa z-index de la imagen de fondo para que esté en la parte posterior */
 }
 
 #duck {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 5%;
-  z-index: 1;
+  position: absolute; /* Establece una posición absoluta para la imagen del pato */
+  top: 5%; /* Desplaza la imagen del pato un 5% desde la parte superior */
+  left: 50%; /* Alinea el centro de la imagen del pato en el 50% del contenedor */
+  transform: translateX(-50%); /* Centra la imagen del pato horizontalmente */
+  width: 5%; /* Establece el ancho de la imagen del pato al 5% del contenedor */
+  z-index: 1; /* Establece la capa z-index de la imagen del pato para que esté encima de la imagen de fondo */
 }
 
-/*CONTADOR*/
 #contador {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 20px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  background-color: green;
+  border: 1px solid black; /* Establece un borde sólido de 1 píxel en color negro */
+  padding: 10px; /* Añade un relleno interno al contador */
+  margin: 20px; /* Establece un margen externo de 20 píxeles al contador */
+  position: absolute; /* Establece una posición absoluta para el contador */
+  top: 0; /* Alinea el contador en la parte superior */
+  right: 0; /* Alinea el contador en la parte derecha */
+  display: flex; /* Habilita el uso de flexbox en el contador */
+  flex-direction: column; /* Establece la dirección de la columna para los elementos del contador */
+  color: white; /* Establece el color del texto en blanco */
+  background-color: green; /* Establece el color de fondo en verde */
 }
 
 #disparos, #aciertos {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Establece un margen inferior de 10 píxeles para los elementos de disparos y aciertos */
 }

@@ -1,71 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Menú Principal</title>
-  <style>
-    body {
-      background-color: #8B4513;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      min-height: 100vh;
-      margin: 0;
-    }
+  <head>
+    <title>Menú Principal</title>
+    <style>
+      body {
+        background-color: #8B4513; /* Establece el color de fondo del cuerpo (body) */
+        display: flex; /* Habilita el uso de flexbox */
+        justify-content: center; /* Centra verticalmente los elementos del cuerpo */
+        align-items: center; /* Centra horizontalmente los elementos del cuerpo */
+        flex-direction: column; /* Establece la dirección de la columna para los elementos flexbox */
+        margin: 0; /* Elimina el margen predeterminado del cuerpo */
+      }
 
-    header {
-      background-color: skyblue;
-      color: white;
-      padding: 10px;
-      text-align: center;
-    }
-  
-    #irMenu2 {
-      border-radius: 50px;
-      background-color: olive;
-      color: rgb(0, 0, 0);
-    }
-  
-    footer {
-      background-color: #8B4513;
-      padding: 1px;
-      /*position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      padding: 5px;*/
-    }
+      header {
+        background-color: skyblue; /* Establece el color de fondo del encabezado */
+        color: white; /* Establece el color del texto del encabezado */
+        padding: 10vh; /* Añade un relleno vertical al encabezado */
+        text-align: center; /* Centra el texto del encabezado horizontalmente */
+      }
 
-    section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px; /* Añadí un margen superior opcional para separar el encabezado */
-}
-  </style>
-</head>
-<body>
-  <header>
-    <h2>NO TE ADICCIONES CUANDO VEAS EL PRECIO DEL ACEITE</h2>
-  </header>
-  
-  <section>
-    <p>TUTORIAL:</p>
-    <p>El primer ejemplo es sencillo. Solo tienes que hacer clic en el botón que parece una aceituna verde, pero no lo es. No es fácil capturarlos, por eso el aceite es caro. Pero por ser tú, te lo dejamos fácil. Después de esto, comenzará la caza. Y recuerda, ¡no dejes escapar el aceite!</p>
-  
-    <button id="irMenu2">START</button>
-  </section>
-  
-  <footer>
-    <h6>Trabajo realizado por Carlos Marín</h6>
-  </footer>
+      #irMenu2 {
+        border-radius: 50px; /* Establece un borde redondeado para el botón */
+        background-color: olive; /* Establece el color de fondo del botón */
+        color: rgb(0, 0, 0); /* Establece el color del texto del botón */
+      }
 
-  <script>
-    document.getElementById("irMenu2").addEventListener("click", function() {
-      window.location.href = "juego.html"; // Redirige al menú secundario (menu2.html)
-    });
-  </script>
-</body>
+      footer {
+        background-color: #8B4513; /* Establece el color de fondo del pie de página */
+        padding: 1px; /* Añade un pequeño relleno al pie de página */
+      }
+
+      section {
+        display: flex; /* Habilita el uso de flexbox */
+        flex-direction: column; /* Establece la dirección de la columna para los elementos flexbox */
+        align-items: center; /* Centra horizontalmente los elementos del área de la sección */
+        justify-content: center; /* Centra verticalmente los elementos del área de la sección */
+        text-align: center; /* Centra el texto del área de la sección horizontalmente */
+        margin-top: 50px; /* Añadí un margen superior opcional para separar el encabezado */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>NO TE ADICCIONES CUANDO VEAS EL PRECIO DEL ACEITE</h2> <!-- Encabezado principal -->
+    </header>
+
+    <section>
+      <p>TUTORIAL:</p> <!-- Párrafo de introducción al tutorial -->
+      <p>
+        El primer ejemplo es sencillo. Solo tienes que hacer clic en el botón que parece una aceituna verde, pero no lo es.
+        No es fácil capturarlos, por eso el aceite es caro. Pero por ser tú, te lo dejamos fácil. Después de esto, comenzará
+        la caza. Y recuerda, ¡no dejes escapar el aceite! (Cuando empiece el juego el primer clip será una prueba pero no cuenta.)
+      </p> <!-- Párrafo de instrucciones del juego -->
+
+      <button id="irMenu2">START</button> <!-- Botón para iniciar el juego -->
+    </section>
+
+    <footer>
+      <h6>Trabajo realizado por Carlos Marín</h6> <!-- Créditos del trabajo realizado -->
+    </footer>
+
+    <script>
+      document.getElementById("irMenu2").addEventListener("click", function() {
+        window.location.href = "juego.html"; // Redirige al menú secundario (menu2.html)
+      });
+    </script>
+  </body>
 </html>

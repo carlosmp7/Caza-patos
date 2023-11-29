@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Caza de Smoliv</title>
-
+  <title>Caza de Smoliv</title> <!-- Establece el título de la página -->
   <link rel="stylesheet" href="styles.css">  <!-- Enlace al archivo CSS -->
 </head>
 
 <body>
-  <h2 id="titulo"> Cazando Smoliv por Jaén</h2>
+  <h2 id="titulo"> Cazando Smoliv por Jaén</h2> <!-- Título principal de la página -->
  
- <div id="game-container">
-   <img id="background-image" src="https://unolivo.com/wp-content/uploads/2021/05/cultivo-del-olivo-y-el-aceite-en-Jaen.jpg">
-   <img id="duck" src="https://www.serebii.net/scarletviolet/pokemon/new/928.png">
-   <div id="contador">    <!--Contador-->
- <div id="disparos">Disparos: <span id="disparos-restantes">8</span>/8</div>
- <div id="aciertos">Aciertos: <span id="aciertos-counter">0</span></div>
-</div>    <!--Contador-->
- </div>
- <script src="script.js"></script>          <!-- Enlace al archivo JavaScript -->
- <!--<button onclick="volverAlInicio()">Volver al inicio</button>-->
+ <div id="game-container"> <!-- Contenedor principal del juego -->
+   <img id="background-image" src="https://unolivo.com/wp-content/uploads/2021/05/cultivo-del-olivo-y-el-aceite-en-Jaen.jpg"> <!-- Imagen de fondo -->
+   <img id="duck" src="https://www.serebii.net/scarletviolet/pokemon/new/928.png"> <!-- Imagen de Smoliv a atrapar -->
+   <div id="contador">    <!-- Contenedor del contador -->
+      <div id="disparos">Disparos: <span id="disparos-restantes">8</span>/8</div> <!-- Contador de disparos con el número restante de disparos -->
+      <div id="aciertos">Aciertos: <span id="aciertos-counter">0</span></div> <!-- Contador de aciertos -->
+   </div>    <!-- Fin del contenedor del contador -->
+ </div> <!-- Fin del contenedor principal del juego -->
+
+ <script src="script.js"></script>  <!-- Enlace al archivo JavaScript -->
+ <!--<button onclick="volverAlInicio()">Volver al inicio</button>--> <!-- Botón para volver al inicio (comentario en el código) -->
+<!--El botón de arriba está colocado en el caso de necesitarlo para volver atrás antes de acabar la partida. Por eso en la fase funcional está desactivado pero lo dejo en caso de tener que mejorar el código -->
 </body>
 </html>
