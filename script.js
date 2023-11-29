@@ -58,7 +58,7 @@ function handleClick(e) {
     duck.removeEventListener("click", handleClick); // Elimina el evento de clic en el pato
     backgroundImage.removeEventListener("click", handleBackgroundClick); // Elimina el evento de clic en el fondo de pantalla
     volverAlInicio() // Redirige a la página de inicio 
-    alert("Juego terminado"); // Muestra una alerta de "Juego terminado"
+    alert("Juego terminado. Recoge tu aceite por caja."); // Muestra una alerta de "Juego terminado"
   } else {
     moveDuck(); // Mueve el pato a una nueva posición
   }
